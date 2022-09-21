@@ -35,7 +35,7 @@ $\epsilon_{\theta} = \begin{pmatrix}  0\\ 0 \\ \omega_\theta' \end{pmatrix} = \b
 $\epsilon_{\phi} = \begin{pmatrix}  0\\ 0 \\ \omega_\phi' \end{pmatrix} = \begin{pmatrix}  0\\ 0 \\ \pi t\end{pmatrix}$\
 
 $V^{tr}_M = V_O = \omega_\phi \times O_1O$, since the body D is moves translational.
-$V^{rel}_M = \omega_\theta \times \rho_m$ where $\rho_m = \vec{NM}$\
+$V^{rel}_M = \omega_\theta \times \rho_m$ where $\rho_m = \vec{NM}$
 Relative acceleration:
 $a^\tau_M = \epsilon_\phi \times \rho_M$\
 $a^n_M = \omega_\phi \times (\omega_\phi \times \rho_M)$
@@ -47,7 +47,7 @@ $a^n_O = \omega_\phi \times (\omega_phi \times O_1O$
 
 # 3. Find t, when M reaches O point:
 $OM = \frac{OM}{R} = 6\pi t^2 = 2\pi R * k$, where k \in N
-$t^2 = \frac{2 R*k}{6} = \frac{R*k}{3}$
+$t^2 = \frac{2 R*k}{6} = \frac{R*k}{3}$\
 $t = \sqrt{\frac{Rk}{3}}$
 ---
 # 4. Draw plots or put on siulation for previous statement:
