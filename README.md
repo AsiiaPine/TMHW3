@@ -27,27 +27,32 @@
 
 ### 1. Obtain all positions:
 Firstly introduce all variables and positions we know from the task already:
-$\theta = \frac{OM}{R}$
 
-$\omega_r = \frac{d\theta}{dt}$
+$$\theta = \frac{OM}{R}$$
+
+$$\omega_r = \frac{d\theta}{dt}$$
 
 Point $O_1$:
+
 $O_1 = [0,0]$
 
 Point $O_2$:
 $O_2 = [2R, 0]$
 
 ### Point O
+
 $x = r cos(\phi)$
 
 $y = r sin(\phi)$
 
 ### Point A:
+
 $x = r*cos(\phi) + R$
 
 $y = r*sin(\phi)$
 
 ### Point M:
+
 $$ x = O_x + R + R*cos(\pi - \theta)$$
 
 $$ y = O_y + R*sin(\theta) \text{, if } \sin(\theta)\leq 0 \text{, then }-R sin(\theta) + O_y$$
@@ -55,8 +60,11 @@ $$ y = O_y + R*sin(\theta) \text{, if } \sin(\theta)\leq 0 \text{, then }-R sin(
 $OM = s_r(t) = 6\pi t^2$
 
 <a name="vels_1"/>
+
 ### 2. Find absolute, transport and relative velocities and accelerations for M:
+
 Condition for implementing the semicircle movement:
+
 $$i = \begin{cases} 1, &sin(\theta) \geq 0\\  -1, & sin(\theta) < 0 \end{cases}$$
 
 Angular velocities based on the angles:
@@ -123,22 +131,28 @@ $\epsilon_{tr} = 0$
 
 $$a^\tau_O = \epsilon_\phi \times O1O$$
 
-$$a^n_O = \omega_\phi \times (\omega_\phi \times O_1O)$$
+$$a^n_O = \omega_\phi \times {(\omega_\phi \times O_1O)}$$
 
 
 
 <a name="time_1"/>
 
 ## 3. Find t, when M reaches O point:
+
 $\theta = \frac{OM}{R} = 6\pi t^2 = 2\pi R * k$ , where $k \in Z$
-$t^2 = \frac{2 R*k}{6} = \frac{R*k}{3}$
+
+
+$$t^2 = \frac{2 R*k}{6} = \frac{R*k}{3}$$
+
 $t = \sqrt{\frac{Rk}{3}}$
+
 ---
 
 
 <a name="sim_1"/>
 
 ## 4. Draw plots or put on simulation for previous statement:
+
 All previous statements are simulated in [geogebra](https://www.geogebra.org/m/vkfjvsvj).
 
 
@@ -152,6 +166,7 @@ All previous statements are simulated in [geogebra](https://www.geogebra.org/m/v
 <a name="coord_2"/>
 
 ### 1. Obtain all positions:
+
 Firstly introduce all variables and positions we know from the task already:
 
 $\theta = \frac{OM}{R}$
@@ -255,6 +270,7 @@ $$a^{tr}_M = a_O + \epsilon_{tr} \times \rho_M + \omega_{\phi} \times \rho_M = \
 <a name="time_2"/>
 
 ### 3. Find t, when M reaches O point:
+
 $\theta = \frac{OM}{R} = 75\pi (0.1t + 0.3t^2) = 2\pi R$
 
 $$ 3t^2 + t - \frac{2R}{7.5} = 0 $$
@@ -262,10 +278,15 @@ $$ 3t^2 + t - \frac{2R}{7.5} = 0 $$
 $t_{1,2} = \frac{-1 \pm \sqrt{1+\frac{4* 6R}{7.5}}}{6}$
 
 $t \geq 0$
+
 Answer:
+
 $$t = \frac{-1 + \sqrt{1+\frac{4* 6R}{7.5}}}{6}$$
+
 ---
+
 <a name="sim_2"/>
 
 ### 4. Draw plots or put on simulation for previous statement:
+
 All previous statements are simulated in [geogebra](https://www.geogebra.org/calculator/m32pdh67).
