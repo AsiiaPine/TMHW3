@@ -147,7 +147,7 @@ All previous statements are simulated in [geogebra](https://www.geogebra.org/m/v
 
 ## Second Task
 
-![alt text](task_2 "Task 2")
+![alt text](task_2.png "Task 2")
 
 <a name="coord_2"/>
 
