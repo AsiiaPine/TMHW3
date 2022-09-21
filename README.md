@@ -46,7 +46,7 @@ $a^\tau_O = \epsilon_\phi \times O_1O$\
 $a^n_O = \omega_\phi \times (\omega_phi \times O_1O$
 
 # 3. Find t, when M reaches O point:
-$OM = \frac{OM}{R} = 6\pi t^2 = 2\pi R * k$, where k \in N
+$OM = \frac{OM}{R} = 6\pi t^2 = 2\pi R * k$ , where $k \in N$\
 $t^2 = \frac{2 R*k}{6} = \frac{R*k}{3}$\
 $t = \sqrt{\frac{Rk}{3}}$
 ---
