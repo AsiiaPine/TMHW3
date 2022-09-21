@@ -1,5 +1,31 @@
+##### Table of Contents  
+## [Task 1](#task1)  
+### [Poits coordinates](#coord_1)
+
+### [Velocities and accelerations](#vels_1)
+
+### [Finding time](#time_1)
+
+### [Simulation](#sim_1)
+
+## [Task 2](#task2)  
+### [Poits coordinates](#coord_2)
+
+### [Velocities and accelerations](#vels_2)
+
+### [Finding time](#time_2)
+
+### [Simulation](#sim_2)
+
+<a name="task1"/>
+
+## Task 1
+
 ![alt text](task1 "Task 1")
-# 1. Obtain all positions:
+
+<a name="coord_1"/>
+
+### 1. Obtain all positions:
 Firstly introduce all variables and positions we know from the task already:
 $\theta = \frac{OM}{R}$
 
@@ -28,7 +54,8 @@ $$ y = O_y + R*sin(\theta) \text{, if } \sin(\theta)\leq 0 \text{, then }-R sin(
 
 $OM = s_r(t) = 6\pi t^2$
 
-# 2. Find absolute, transport and relative velocities and accelerations for M:
+<a name="vels_1"/>
+### 2. Find absolute, transport and relative velocities and accelerations for M:
 Condition for implementing the semicircle movement:
 $$i = \begin{cases} 1, &sin(\theta) \geq 0\\  -1, & sin(\theta) < 0 \end{cases}$$
 
@@ -98,21 +125,33 @@ $$a^\tau_O = \epsilon_\phi \times O1O$$
 
 $$a^n_O = \omega_\phi \times (\omega_\phi \times O_1O)$$
 
-# 3. Find t, when M reaches O point:
+
+
+<a name="time_1"/>
+
+## 3. Find t, when M reaches O point:
 $\theta = \frac{OM}{R} = 6\pi t^2 = 2\pi R * k$ , where $k \in Z$
 $t^2 = \frac{2 R*k}{6} = \frac{R*k}{3}$
 $t = \sqrt{\frac{Rk}{3}}$
 ---
-# 4. Draw plots or put on siulation for previous statement:
+
+
+<a name="sim_1"/>
+
+## 4. Draw plots or put on simulation for previous statement:
 All previous statements are simulated in [geogebra](https://www.geogebra.org/m/vkfjvsvj).
 
 
 
+<a name="task2"/>
 
-# Second Task
+## Second Task
 
 ![alt text](task_2 "Task 2")
-# 1. Obtain all positions:
+
+<a name="coord_2"/>
+
+### 1. Obtain all positions:
 Firstly introduce all variables and positions we know from the task already:
 
 $\theta = \frac{OM}{R}$
@@ -146,8 +185,9 @@ $OM = s_r(t) = 75 \pi(0.1 t + 0.3 t^2)$
 $\phi = 2t - 0.3 t^2$
 
 
+<a name="vels_2"/>
 
-# 2. Find absolute, transport and relative velocities and accelerations for M:
+### 2. Find absolute, transport and relative velocities and accelerations for M:
 
 
 Angular velocities based on the angles:
@@ -212,7 +252,9 @@ Transport acceleration:
 
 $$a^{tr}_M = a_O + \epsilon_{tr} \times \rho_M + \omega_{\phi} \times \rho_M = \epsilon_{tr} \times \rho_M + \omega_{\phi} \times \rho_M $$
 
-# 3. Find t, when M reaches O point:
+<a name="time_2"/>
+
+### 3. Find t, when M reaches O point:
 $\theta = \frac{OM}{R} = 75\pi (0.1t + 0.3t^2) = 2\pi R$
 
 $$ 3t^2 + t - \frac{2R}{7.5} = 0 $$
@@ -223,5 +265,7 @@ $t \geq 0$
 Answer:
 $$t = \frac{-1 + \sqrt{1+\frac{4* 6R}{7.5}}}{6}$$
 ---
-# 4. Draw plots or put on siulation for previous statement:
+<a name="sim_2"/>
+
+### 4. Draw plots or put on simulation for previous statement:
 All previous statements are simulated in [geogebra](https://www.geogebra.org/calculator/m32pdh67).
