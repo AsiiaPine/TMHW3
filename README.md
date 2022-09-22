@@ -117,15 +117,21 @@ $$V^{tr}_M = V_O = \omega_{\phi} \times O_1O \text{, since the body D is moves t
 
 $$V^{rel}_M = \omega_{\theta} \times \rho_m \text{ where }\rho_m = \vec{NM}$$
 
+
+Full $V_M$ :
+
+$$ V_M = V^{tr}_M + V^{rel}_M $$
+
+
 Relative acceleration:
 
 $$a^{\tau}_M = {\epsilon_{\phi}} \times {\rho_M}$$
 
-$a^{n}_M = \omega_{\phi} \times (\omega_{\phi} \times \rho_M)$
+$$a^{n}_M = \omega_{\phi} \times (\omega_{\phi} \times \rho_M)$$
 
 Transport acceleration:
 
-$$a^{tr}_M = a_O + \epsilon_{tr} \times \rho_M = a^\tau_O + a^n_O $$
+$$a^{tr}_M = a_O + \epsilon_{tr} \times \rho_M = a^{\tau}_O + a^{n}_O $$
 
 $\epsilon_{tr} = 0$
 
@@ -133,6 +139,12 @@ $$a^\tau_O = \epsilon_\phi \times O1O$$
 
 $$a^n_O = \omega_\phi \times {(\omega_\phi \times O_1O)}$$
 
+Cor. acceleration:
+
+$$a^{cor}__M = \omega_{tr} \times V^{rel}_M = 0 $$
+
+Full acceleration:
+$$a = a^{cor}__M + a^{tr}_M + a^{rel}_M $$
 
 
 <a name="time_1"/>
@@ -257,15 +269,28 @@ since the body D is moves only rotational.
 
 $V^{rel}_M = \omega_\theta \times \vec{NM}$
 
+Full $ V_M $:
+
+$$ V_M = V^{tr}_M + V^{rel}_M $$
+
 Relative acceleration:
 
 $a^\tau_M = \epsilon_{\phi} \times \vec{NM}$
 
 $$a^n_M = \omega_{\phi} \times (\omega_{\phi} \times \vec{NM})$$
 
+$$a^{rel}_M = a^\tau_M + a^n_M
+
 Transport acceleration:
 
 $$a^{tr}_M = a_O + \epsilon_{tr} \times \rho_M + \omega_{\phi} \times \rho_M = \epsilon_{tr} \times \rho_M + \omega_{\phi} \times \rho_M $$
+
+Cor. acceleration:
+
+$$a^{cor}__M = \omega_{\phi} \times V^{rel}_M  $$
+
+Full acceleration:
+$$a = a^{cor}__M + a^{tr}_M + a^{rel}_M $$
 
 <a name="time_2"/>
 
